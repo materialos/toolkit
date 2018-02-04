@@ -1,0 +1,47 @@
+{
+  "name": "@materialos/toolkit",
+  "version": "0.1.0",
+  "private": "true",
+  "description": "Tools for maintaining materialos/icons.",
+  "bugs": {
+    "url": "https://github.com/materialos/toolkit/issues"
+  },
+  "license": "MIT",
+  "author": "MaterialOS",
+  "main": "./lib/index.js",
+  "bin": {
+    "toolkit": "./bin/cli.js"
+  },
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/materialos/toolkit.git"
+  },
+  "scripts": {
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
+    "contributors:sort": "node ./bin/cli.js contributors sort"
+  },
+  "dependencies": {
+    "all-contributors-cli": "^4.10.1",
+    "chalk": "^2.3.0",
+    "convert-svg-to-png": "^0.3.3",
+    "dir-to-json": "0.0.3",
+    "lodash": "^4.17.4",
+    "pn": "^1.1.0",
+    "svg2png": "^4.1.1",
+    "svgo": "^1.0.4",
+    "vorpal": "^1.12.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-plugin-node": "^5.2.1"
+  },
+  "engines": {
+    "node": "^7.10.0"
+  }
+}

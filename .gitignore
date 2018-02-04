@@ -1,0 +1,20 @@
+# Node.js modules
+node_modules/
+
+
+# Debug file
+debug.js
+
+# All test output files
+**/output.*
+
+# All image files
+**/*.svg
+**/*.ai
+**/*.psd
+**/*.png
+**/*.jpg
+**/*.jpeg
+
+# Except icon.png
+!img/icon.png
