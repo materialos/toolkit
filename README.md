@@ -1,9 +1,15 @@
 <div align="center">
+
 ![Icon](img/icon.png)
+
 </div>
+
+
 <div align="center">
+
 [![npm version](https://img.shields.io/npm/v/toolkit/materialos.svg)](https://www.npmjs.com/package/org/materialos/toolkit)
 [![license](https://img.shields.io/github/license/materialos/toolkit.svg)](/LICENSE)
+
 </div>
 
 
