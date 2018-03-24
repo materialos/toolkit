@@ -16,7 +16,7 @@
 # MaterialOS Toolkit
 
 ## Description
-A set of tools for maintaining the [materialos/icons](https://github.com/materialos/icons/) repository mainly written in Node.js. These aren't required to use our icons but my be helpful for contributors. They may be buggy and will change and break frequently since they're just small tools.
+A set of tools for maintaining the [materialos/icons](https://github.com/materialos/icons/) repository mainly written in Node.js. These aren't required to use our icons but my be helpful for contributors. They may be buggy and will change and break frequently since they're just small tools for internal use.
 
 
 ## Features
