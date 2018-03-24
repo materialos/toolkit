@@ -30,10 +30,11 @@ A set of tools for maintaining the [materialos/icons](https://github.com/materia
 
 
 ## Installation
-###### From npm
+<!-- TODO: Once published to npm, uncomment -->
+<!-- ###### From npm
 ```bash
 $ npm install -g @materialos/toolkit
-```
+``` -->
 ###### From source
 ```bash
 $ git clone https://github.com/materialos/toolkit
