@@ -223,6 +223,39 @@ const contribCli = function(command, args = []) {
 
 
 /*
+	Build
+
+	TODO
+*/
+(vorpal
+	.command("build [path] [key path...]", "Create and build a new version of the Android icon pack.")
+	.action(function(args, callback) {
+		const paths = {
+			"appfilter.xml": [],
+			"drawable.xml": [],
+			"theme_resources.xml": [],
+			"appmap.xml": [],
+			"themecfg.xml": [],
+			"themeinfo.xml": []
+		};
+
+		// TODO: Read dirjson make categories for drawables for them
+		// TODO: Read companies.json and make categories for them
+		// TODO Wait for all icons since last built commit `git diff --name-only SHA1 SHA2` (https://stackoverflow.com/questions/1552340/how-to-list-only-the-file-names-that-changed-between-two-commits)
+		// TODO: Rename all files to android compatable names
+		// TODO: Read JSON file for activities and sort by category
+		// Make and TODO: save appfilter, appmap, drawables, etc
+		// TODO: drawables categories
+
+
+		// Gradle build
+
+		callback();
+	})
+);
+
+
+/*
 	Setup
 */
 // Run Vorpal
