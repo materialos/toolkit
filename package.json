@@ -30,7 +30,7 @@
     "chalk": "^2.3.0",
     "convert-svg-to-png": "^0.3.3",
     "dir-to-json": "0.0.3",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "pn": "^1.1.0",
     "svg2png": "^4.1.1",
     "svgo": "^1.0.4",
